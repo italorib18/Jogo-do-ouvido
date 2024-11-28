@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The PC</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../styles/pcstyle.css">
+</head>
+
+<body>
+  <div id="monitor">
+    <div id="tela">
+      <h1>Responda corretamente.</h1>
+      <p>Bala perdida é uma característica natural do:</p>
+
+      <form id="form">
+        <label><input type="radio" name="resposta" value="1"> Acre</label><br>
+        <label><input type="radio" name="resposta" value="3"> Rio de Janeiro</label><br>
+        <label><input type="radio" name="resposta" value="2"> Distrito Federal</label><br>
+        <label><input type="radio" name="resposta" value="4"> Pará</label><br>
+        <label><input type="radio" name="resposta" value="4"> Ceará</label><br>
+        <label><input type="radio" name="resposta" value="5"> Paraná</label><br>
+        <label><input type="radio" name="resposta" value="6"> Maranhão</label><br><br>
+        <button type="button" onclick="enviarResposta()">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="../scripts/scriptuniversal.js"></script>
+</body>
+
+</html>

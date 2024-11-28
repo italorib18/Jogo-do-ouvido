@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interfone</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" 
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../styles/pcstyle.css">
+  <link rel="stylesheet" href="../styles/interfonestyle.css">
+</head>
+
+<body>
+  <div id="monitor">
+    <div id="tela">
+      <h1>Avisofone</h1>
+      <p>Qual é o maior perigo para alguém andando de bicicleta?</p>
+      <img src="../images/Sem título.webp" alt="alguém caído no chão">
+      <form id="form">
+        <label><input type="radio" name="resposta" value="1"> Um carro em alta velocidade</label>
+        <label><input type="radio" name="resposta" value="2"> Um caminhão desgovernado</label>
+        <label><input type="radio" name="resposta" value="5"> Um motoqueiro com pressa</label>
+        <label><input type="radio" name="resposta" value="4"> Um buraco na pista</label>
+        <label><input type="radio" name="resposta" value="3"> Uma árvore</label>
+        <label><input type="radio" name="resposta" value="6"> Um avião caindo do céu</label>
+        <label><input type="radio" name="resposta" value="7"> Um macaco raivoso à solta nas ruas</label><br><br>
+        <button type="button" onclick="enviarResposta()">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="../scripts/scriptuniversal.js"></script>
+</body>
+
+</html>

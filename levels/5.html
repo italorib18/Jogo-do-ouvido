@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quem é?</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../styles/pcstyle.css">
+</head>
+
+<body>
+  <div id="monitor">
+    <div id="tela">
+      <h1>Qual é o nome desse indivíduo?</h1>
+      <img id="macho" src="../images/o-macho.jpeg" alt="Um ogro branco cujo nome é desconhecido">
+        <p>taxa de acerto: 25%</p>
+      <form id="form">
+        <label><input type="radio" name="resposta" value="1"> Carlos</label><br>
+        <label><input type="radio" name="resposta" value="2"> Ronaldo</label><br>
+        <label><input type="radio" name="resposta" value="3"> André</label><br>
+        <label><input type="radio" name="resposta" value="4"> João</label><br><br>
+        <button type="button" onclick="enviarResposta()">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="../scripts/scriptuniversal.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('../images/backrooms.png') no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Moldura da folha */
+#folha {
+    background-color: #fff;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    min-height: 70%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #d3d3d3;
+}
+
+/* Estilo do conteúdo */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Estilo das opções */
+label {
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Botão enviar */
+button {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+img{
+    margin-left: 33%;
+    height: 200px;
+}
